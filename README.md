@@ -88,19 +88,14 @@ The parcel project data is viewed in the app by integrating it with the parcel d
 ![image](https://user-images.githubusercontent.com/112990273/235908041-4f5934c0-1d12-4ead-b72f-cc3a88057905.png)
 
 Amador County: https://experience.arcgis.com/experience/7d1ac593e57c4ba9926b93ef09f6de9d/
-![image](https://user-images.githubusercontent.com/112990273/235908149-3c4aa219-666d-4580-99b5-269371300a4e.png)
 
 Contra Costa County: https://experience.arcgis.com/experience/16ecbbf079064d178e985deee183020d/
-![image](https://user-images.githubusercontent.com/112990273/235908200-9c8438ae-74d2-4d4d-8e30-707b39d98c72.png)
 
 ElDorado County: https://experience.arcgis.com/experience/815517ad9987454299dc92e69c765b18/
-![image](https://user-images.githubusercontent.com/112990273/235908246-8337d7de-3ebf-4a77-b4c8-4c261e14b1d4.png)
 
 Kern County: https://experience.arcgis.com/experience/c85261946523493c988e49bb31e5c831/
-![image](https://user-images.githubusercontent.com/112990273/235908321-ec3a46df-a664-4ac7-a4fe-5f301461bbbd.png)
 
 Madera County: https://experience.arcgis.com/experience/600249bded9241fbb1cd599c750b3858/
-![image](https://user-images.githubusercontent.com/112990273/235908374-516bf62c-40a7-4d09-8e46-4b8b47d2b031.png)
 
 ### Getting Started
 To run the code in this repository, you will need the following:
