@@ -20,6 +20,265 @@ In this phase, we gather and understand the data that will be used for analysis.
 ### Data Preparation
 In this phase, we clean and preprocess the data for analysis. The data is first imported into a GIS software and geocoded to obtain spatial data. The data is then cleaned and filtered to remove any irrelevant or incomplete records. The data is also transformed and normalized to ensure consistency and accuracy in the analysis.
 
+### Data was enriched with Fire Hazard Zone, Flood Risk Zone, Fault Zones, Landslide Risk, Liquefaction Zones, Drought Conditions, and the potential for Renewable Energy (Solar Radiation and Wind Speed) layers, in addition to the layers provided by the county. The table schema is detailed below.
+
+
+Name of Field
+
+Alias
+
+Type of Data
+
+Description
+
+APN
+
+APN
+
+STRING
+
+Assessor's Parcel Number
+
+HOUSE_NUM
+
+HOUSE NUM
+
+INTEGER
+
+House Number
+
+PREFIX_DIR
+
+PREFIX DIR
+
+STRING
+
+Prefix Direction
+
+ST_NAME
+
+STREET NAME
+
+STRING
+
+Street Name
+
+ST_TYPE
+
+STREET TYPE
+
+STRING
+
+Street Type
+
+UNIT
+
+UNIT
+
+STRING
+
+Unit
+
+FULL_ADD
+
+FULL ADDRESS
+
+STRING
+
+Full Address
+
+FULL_STNA
+
+FULL STREET NAME
+
+STRING
+
+Full Street Name
+
+CITY
+
+CITY
+
+STRING
+
+City
+
+ZIP_CODE
+
+ZIP CODE
+
+STRING
+
+Zip Code
+
+LAND_USE
+
+LAND USE
+
+STRING
+
+Land Use (County)
+
+ZONING
+
+ZONING
+
+STRING
+
+Zoning
+
+SCAG_LUCO
+
+SCAG LANDUSE CODE
+
+STRING
+
+Land Use (SCAG Code)
+
+SCAG_LU
+
+SCAG LANDUSE
+
+STRING
+
+Land Use (SCAG)
+
+FHSZ_CODE
+
+FIRE HZ ZONE CODE
+
+STRING
+
+Fire Hazard Zone Code
+
+FHSZ_DESC
+
+FIRE HZ ZONE DESC
+
+STRING
+
+Fire Hazard Zone Description
+
+FLO_CODE
+
+FLOOD CODE
+
+STRING
+
+Flood Risk Code
+
+FLO_DESC
+
+FLOOD DESC
+
+STRING
+
+Flood Risk Description
+
+FAULTZONE
+
+FAULT ZONE
+
+STRING
+
+Fault Zone
+
+LANDSLIDE
+
+LANDSLIDE
+
+STRING
+
+Landslide
+
+LIQ_ZONE
+
+LIQUIFACTION ZONE
+
+STRING
+
+Liquifaction Zone
+
+DROUGHT
+
+DROUGHT
+
+STRING
+
+Drought
+
+DRO_DESC
+
+DROUGHT DESC
+
+STRING
+
+Drought Description
+
+SOL_RAD
+
+SOLAR RADIATION
+
+DOUBLE
+
+Solar Radiation
+
+WIND_SP
+
+WIND SPEED
+
+DOUBLE
+
+Wind Speed
+
+LAND_VAL
+
+LAND VALUE
+
+DOUBLE
+
+Land Value
+
+BUI_AREA
+
+BUILT AREA
+
+DOUBLE
+
+Built Area
+
+TAX
+
+TAX
+
+STRING
+
+Tax
+
+OWNERSHIP
+
+OWNERSHIP
+
+STRING
+
+Ownership
+
+AREA_AC
+
+AREA ACRES
+
+DOUBLE
+
+Acres
+
+AREA_SQFT
+
+AREA SQ FT
+
+DOUBLE
+
+Square Feet
+
 ### Modeling
 In this phase, we develop a model to analyze the data and provide insights. The model used for this project is a spatial analysis model that uses GIS technology to identify patterns and trends in land use and value. The model is developed using Python and the ArcPy library, which provides access to GIS functionality.
 
