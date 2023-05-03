@@ -62,18 +62,28 @@ Once you have identified the intersecting features, you can use the "Calculate F
 
 ###### SCAG CALCULATOR: IT ADDS ALL THE SCAG CODES AND COLORS BASED ON LAND USE DATA
 
-###### GEOCODER: 
+###### GEOCODER: This tool uses longitude and latitude extracted from counties and uses python codes and api from arcgis developers website and prints the required addresses
 
 ### Evaluation
 In this phase, we evaluate the model and its results. The model is evaluated based on its accuracy, completeness, and relevance to the business objectives. The results of the analysis are also evaluated to ensure that they are actionable and provide meaningful insights.
 
+Amador County: https://agis.maps.arcgis.com/home/item.html?id=210fc281ff2641aaa7b34bb4893b77bf
+
+Contra Costa County: https://agis.maps.arcgis.com/home/item.html?id=f93d97615a32416ebf5fd713762daca5
+
+ElDorado County: https://agis.maps.arcgis.com/home/item.html?id=0df7235190884d01b5456ff07238c946
+
+Kern County: https://agis.maps.arcgis.com/home/item.html?id=0e20e98c26b74271af49abde6546bb9d
+
+Madera County: https://agis.maps.arcgis.com/home/item.html?id=69e0e387235648b08918b1271f338832
+
 #### Deployment
-In this phase, we deploy the model and its results to stakeholders. The results are presented in the form of maps, charts, and reports. The stakeholders can use the results to make informed decisions on land use, property value, and tax assessments.
+In this phase, we deploy the model and its results to experience builder to create an app. The results are presented in the form of Experience Builder app. The stakeholders can use the results to make informed decisions on land use, property value, and tax, ownership, addresses and hazards.
 
 ### Getting Started
 To run the code in this repository, you will need the following:
 
-GIS software, such as ArcGIS or QGIS
+GIS software, such as ArcGIS
 Python 3.x
 ArcPy library
 Once you have installed the required software and libraries, you can clone this repository and run the code in a Python IDE or Jupyter Notebook.
