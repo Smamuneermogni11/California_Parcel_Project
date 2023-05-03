@@ -38,7 +38,7 @@ In this phase, we clean and preprocess the data for analysis. The data is first 
 ### Modeling
 In this phase, we develop a model to analyze the data and provide insights. The model used for this project is a spatial analysis model that uses GIS technology to identify patterns and trends in hazards and parcel data. The model is developed using Python and the ArcPy library, which provides access to GIS functionality to join hazards like Drought and Liquifaction using model builder in a form of toolbox, SCAG Calculator to join different types of Land Use using SCAG Codes and Colors and Geocoder to print missing addresses for Parcel Data.
 
-#### METHODOLOGY:
+## METHODOLOGY:
 
 ### DROUGHT MODEL BUILDER: 
 The Drought Model Builder in ArcGIS Pro is a powerful tool that allows users to create custom models to analyze drought conditions. One of the key features of the model builder is its ability to use the Select by Location tool to intersect drought layers with county parcel layers. This allows users to determine the number of records that intersect between the two layers.
