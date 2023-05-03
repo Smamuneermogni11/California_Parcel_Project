@@ -85,7 +85,7 @@ Madera County: https://agis.maps.arcgis.com/home/item.html?id=69e0e387235648b089
 In this phase, we deploy the model and its results to experience builder to create an app. The results are presented in the form of Experience Builder app. The stakeholders can use the results to make informed decisions on land use, property value, and tax, ownership, addresses and hazards.
 The parcel project data is viewed in the app by integrating it with the parcel data source in the form of web app in ArcGIS Online. All layers of parcel data and other relevant data such as zoning, land use, and demographics is added to the app. There are widgets added to the app to provide interactive functionality, such as filtering, querying, and analysis.
 
-![image](https://user-images.githubusercontent.com/112990273/235908041-4f5934c0-1d12-4ead-b72f-cc3a88057905.png)
+![image](https://user-images.githubusercontent.com/112990273/235910137-da8e939f-c4c4-4548-b87f-f8bc985ba9f7.png)
 
 Amador County: https://experience.arcgis.com/experience/7d1ac593e57c4ba9926b93ef09f6de9d/
 
