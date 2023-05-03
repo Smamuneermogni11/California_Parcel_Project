@@ -34,6 +34,7 @@ In this phase, we clean and preprocess the data for analysis. The data is first 
 			
 ![image](https://user-images.githubusercontent.com/112990273/235898636-7d2eface-ca7c-4392-b125-c55580aa59fd.png)
 
+See Parcel Template.xlsx
 
 ### Modeling
 In this phase, we develop a model to analyze the data and provide insights. The model used for this project is a spatial analysis model that uses GIS technology to identify patterns and trends in hazards and parcel data. The model is developed using Python and the ArcPy library, which provides access to GIS functionality to join hazards like Drought and Liquifaction using model builder in a form of toolbox, SCAG Calculator to join different types of Land Use using SCAG Codes and Colors and Geocoder to print missing addresses for Parcel Data.
@@ -64,6 +65,8 @@ Once you have identified the intersecting features, you can use the "Calculate F
 
 ### SCAG CALCULATOR: 
 IT ADDS ALL THE SCAG CODES AND COLORS BASED ON LAND USE DATA
+
+See Parcel Template.xlsx
 
 ### GEOCODER: 
 This tool uses longitude and latitude extracted from counties and uses python codes and api from arcgis developers website and prints the required addresses
