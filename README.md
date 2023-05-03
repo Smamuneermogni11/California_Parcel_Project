@@ -40,7 +40,7 @@ In this phase, we develop a model to analyze the data and provide insights. The 
 
 #### METHODOLOGY:
 
-###### DROUGHT MODEL BUILDER: The Drought Model Builder in ArcGIS Pro is a powerful tool that allows users to create custom models to analyze drought conditions. One of the key features of the model builder is its ability to use the Select by Location tool to intersect drought layers with county parcel layers. This allows users to determine the number of records that intersect between the two layers.
+#### DROUGHT MODEL BUILDER: The Drought Model Builder in ArcGIS Pro is a powerful tool that allows users to create custom models to analyze drought conditions. One of the key features of the model builder is its ability to use the Select by Location tool to intersect drought layers with county parcel layers. This allows users to determine the number of records that intersect between the two layers.
 
 To begin using the Drought Model Builder, the user must first create a new model within ArcGIS Pro. This can be done by selecting the ModelBuilder button from the Analysis tab and then clicking on the New Model button. Once the model has been created, the user can begin adding tools and data layers to it.
 
@@ -52,7 +52,7 @@ To spatially join the drought layer with the county parcel layer, the user can u
 
 Finally, the user can use the Table Select tool to print out the records that intersect between the drought layer and the county parcel layer.
 
-###### LIQUIFACTION MODEL BUILDER: The liquefaction model builder in ArcGIS Pro is a powerful tool for identifying areas that may be susceptible to soil liquefaction during an earthquake. This tool uses the "Select by Location" option in ArcGIS Pro to identify the layers that intersect between the liquefaction and county parcel layers.
+#### LIQUIFACTION MODEL BUILDER: The liquefaction model builder in ArcGIS Pro is a powerful tool for identifying areas that may be susceptible to soil liquefaction during an earthquake. This tool uses the "Select by Location" option in ArcGIS Pro to identify the layers that intersect between the liquefaction and county parcel layers.
 
 The first step in using this model builder is to ensure that both the liquefaction and county parcel layers are loaded into your ArcGIS Pro project. Once these layers have been added, you can begin using the "Select by Location" option to identify the intersecting features.
 
@@ -60,9 +60,9 @@ To do this, you will need to open the "Select by Location" tool in ArcGIS Pro. T
 
 Once you have identified the intersecting features, you can use the "Calculate Field" option to mark these features in the county parcel layer. This is done by adding a new field to the county parcel layer and setting the value of this field to 1 for all intersecting features and 0 for all other features.
 
-###### SCAG CALCULATOR: IT ADDS ALL THE SCAG CODES AND COLORS BASED ON LAND USE DATA
+#### SCAG CALCULATOR: IT ADDS ALL THE SCAG CODES AND COLORS BASED ON LAND USE DATA
 
-###### GEOCODER: This tool uses longitude and latitude extracted from counties and uses python codes and api from arcgis developers website and prints the required addresses
+#### GEOCODER: This tool uses longitude and latitude extracted from counties and uses python codes and api from arcgis developers website and prints the required addresses
 
 ### Evaluation
 In this phase, we evaluate the model and its results. The model is evaluated based on its accuracy, completeness, and relevance to the business objectives. The results of the analysis are also evaluated to ensure that they are actionable and provide meaningful insights.
