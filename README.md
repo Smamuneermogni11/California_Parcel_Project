@@ -38,6 +38,22 @@ In this phase, we clean and preprocess the data for analysis. The data is first 
 ### Modeling
 In this phase, we develop a model to analyze the data and provide insights. The model used for this project is a spatial analysis model that uses GIS technology to identify patterns and trends in hazards and parcel data. The model is developed using Python and the ArcPy library, which provides access to GIS functionality to join hazards like Drought and Liquifaction using model builder in a form of toolbox, SCAG Calculator to join different types of Land Use using SCAG Codes and Colors and Geocoder to print missing addresses for Parcel Data.
 
+#### METHODOLOGY:
+
+###### DROUGHT MODEL BUILDER: The Drought Model Builder in ArcGIS Pro is a powerful tool that allows users to create custom models to analyze drought conditions. One of the key features of the model builder is its ability to use the Select by Location tool to intersect drought layers with county parcel layers. This allows users to determine the number of records that intersect between the two layers.
+
+To begin using the Drought Model Builder, the user must first create a new model within ArcGIS Pro. This can be done by selecting the ModelBuilder button from the Analysis tab and then clicking on the New Model button. Once the model has been created, the user can begin adding tools and data layers to it.
+
+To intersect the drought layer with the county parcel layer, the user must first add both layers to the model. This can be done by dragging and dropping the layers from the Layers pane onto the model canvas. Once the layers have been added, the user can connect them to the Select Layer by Location tool. The tool allows the user to specify the type of spatial relationship they want to use to select the features from the drought layer that intersect with the county parcel layer.
+
+Once the Select Layer by Location tool has been configured, the user can use the Get Count tool to determine the number of records that intersect between the two layers. This information can be useful for determining the severity of drought conditions within a particular county.
+
+To spatially join the drought layer with the county parcel layer, the user can use the Spatial Join tool. This tool allows the user to combine attributes from two layers based on their spatial relationship. Once the spatial join has been completed, the user can use the Select Layer By Attribute tool to filter the results to only show records that intersect between the two layers.
+
+Finally, the user can use the Table Select tool to print out the records that intersect between the drought layer and the county parcel layer.
+
+###### LIQUIFACTION MODEL BUILDER: 
+
 
 
 ### Evaluation
