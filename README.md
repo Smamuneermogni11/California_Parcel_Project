@@ -105,8 +105,9 @@ Python 3.x
 ArcPy library
 Once you have installed the required software and libraries, you can clone this repository and run the code in a Python IDE or Jupyter Notebook.
 
-## Contributing
-Contributions to this project are welcome. If you would like to contribute, please submit a pull request with your changes.
+## Cloning
+Here is a step by step method to clone this repository:
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+## Disclaimer
+This application can be used by the public to view parcel information for the County. We have made every attempt to ensure the data contained within the map is up to date; however, we cannot guarantee the accuracy of the information provided or its lack thereof.
